@@ -51,10 +51,16 @@
         margin: 40px auto 0 auto;
     }
     .feture-img img{
-        width: 400px;
+        width: 325px;
     }
     .feture-content .card{
         margin: 20px 0;
+    }
+    section.sponsors {
+        width: 99%;
+    }
+    nav li a {
+        font-size: 0.9rem;
     }
 }
 /* tablet and medium devices */
