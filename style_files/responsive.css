@@ -31,6 +31,19 @@
     .facts {
         padding: 50px 48px;
     }
+    .sponsors-img-container{
+        flex-direction: column;
+    }
+    .sponsors-img-container img{
+        margin: 15px 0;
+    }
+    .banner-content {
+        margin: 30px auto;
+    }
+    nav li a {
+        margin-top: 23px;
+        display: inline-block;
+    }
 }
 /* tablet and medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -57,5 +70,8 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
+    }
+    .sponsors{
+        margin: 0 30px;
     }
 }

@@ -127,7 +127,7 @@ main {
 /* facts section styling */
 
 .facts{
-    padding: 50px 30px;
+    padding: 80px 30px;
 }
 .facts-card-container{
     display: flex;
@@ -147,4 +147,39 @@ main {
 .card img {
     width: 55px;
     margin-top: 10px;
+}
+
+/* sponsors-section-styling */
+
+.spons-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+}
+.card-title {
+    color: #727272;
+    font-weight: 400;
+    padding: 20px 0 25px 0;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+/* sponsors-section-styling */
+
+.sponsors-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sponsors-img-container img{
+    color: #727272;
+}
+
+/* footer section styling */
+
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin-top: 60px;
 }
