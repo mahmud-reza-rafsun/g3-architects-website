@@ -25,6 +25,17 @@
     color: #ff900e;
     background: none;
 }
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+.description {
+    color: #727272;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 1.5rem;
+}
 /* header section styling */
 header{
     width: 100%;
@@ -70,17 +81,6 @@ nav li a:hover{
     margin: 0 auto;
     display: block;
 }
-.banner-title {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #131313;
-}
-.banner-description {
-    color: #727272;
-    font-weight: 400;
-    padding: 20px 0;
-    line-height: 1.5rem;
-}
 /* about section styling */
 
 main {
@@ -103,7 +103,7 @@ main {
     padding-left: 40px;
 }
 .teams-content{
-    padding-left: 40px;
+    padding-left: 60px;
     padding-right: 40px;
 }
 .teams-title{
@@ -116,4 +116,35 @@ main {
 }
 .teams-title .feature{
     color: #FF900E;
+}
+
+
+
+
+
+
+
+/* facts section styling */
+
+.facts{
+    padding: 50px 30px;
+}
+.facts-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 6px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 10px 25px;
+}
+.card-stats {
+    font-size: 34px;
+    padding-top: 15px;
+}
+.card img {
+    width: 55px;
+    margin-top: 10px;
 }
