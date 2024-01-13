@@ -44,6 +44,18 @@
         margin-top: 23px;
         display: inline-block;
     }
+    .fetures{
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        margin: 40px auto 0 auto;
+    }
+    .feture-img img{
+        width: 400px;
+    }
+    .feture-content .card{
+        margin: 20px 0;
+    }
 }
 /* tablet and medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -73,5 +85,13 @@
     }
     .sponsors{
         margin: 0 30px;
+    }
+    .fetures{
+        flex-wrap: wrap;
+    }
+    .fetures{
+        width: 90%;
+        margin: auto;
+        text-align: center;
     }
 }

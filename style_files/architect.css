@@ -117,10 +117,35 @@ main {
 .teams-title .feature{
     color: #FF900E;
 }
-
-
-
-
+/* feture section styling */
+.fetures{
+    margin: 80px 0 0 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.feture-content .card{
+    background-color: #FFF;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 25px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.section-title-feture {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.feture-img img{
+    width: 550px;
+}
+.description-p {
+    color: #727272;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 1.5rem;
+}
 
 
 
