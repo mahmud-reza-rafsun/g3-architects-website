@@ -7,6 +7,22 @@
     nav{
         flex-direction: column;
     }
+    .teams-container{
+        flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .teams-content{
+        padding-left: 50px;
+        padding-right: 0;
+    }
+    .teams-title {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
 }
 /* tablet and medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {

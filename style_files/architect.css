@@ -81,3 +81,39 @@ nav li a:hover{
     padding: 20px 0;
     line-height: 1.5rem;
 }
+/* about section styling */
+
+main {
+    max-width: 1068px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teams-img-container img{
+    width: 270px;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-left: 40px;
+}
+.teams-content{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.teams-title{
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+}
+.teams-title .quick{
+    color: #727272;
+    font-weight: 500;
+}
+.teams-title .feature{
+    color: #FF900E;
+}
